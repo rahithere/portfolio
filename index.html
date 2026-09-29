@@ -16,8 +16,12 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
 
     <script src="./js/script.js" defer></script>
+    <script src="./js/projects.js" defer></script>
   </head>
   <body class="bg-black text-white bg-dots">
+    <!-- Custom Cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
     <main>
       <!-- HERO -->
       <section
@@ -359,6 +363,16 @@
                   <i class="devicon-bash-plain"></i>
                   <span>Git Bash</span>
                 </div>
+
+                <div class="tech-item">
+                  <i class="devicon-n8n-plain colored"></i>
+                  <span>n8n</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="bxl bx-gsap"></i>
+                  <span>GSAP</span>
+                </div>
               </div>
             </div>
           </div>
@@ -394,6 +408,285 @@
           </div>
         </div>
       </section>
+
+      <!-- BEYOND THE CODE -->
+      <section id="story" class="py-24 md:py-32">
+        <div class="mx-auto max-w-6xl px-6">
+          <!-- Outer Card -->
+          <div
+            class="rounded-2xl border border-white/10 bg-[#080808]/90 p-6 md:p-8 lg:p-10"
+          >
+            <!-- Section Label -->
+            <p
+              class="mb-10 text-xs font-medium uppercase tracking-[0.3em] text-neutral-400"
+            >
+              Beyond the Code
+            </p>
+
+            <!-- Main Grid -->
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+              <!-- First Hackathon -->
+              <div
+                class="rounded-xl border border-white/10 bg-white/[0.02] p-6 md:p-8"
+              >
+                <p
+                  class="mb-5 text-xs font-medium uppercase tracking-[0.2em] text-neutral-500"
+                >
+                  My First Hackathon
+                </p>
+
+                <h3 class="text-2xl font-bold tracking-[-0.02em] text-white">
+                  HackN'Pitch '25
+                </h3>
+
+                <p class="mt-2 text-sm text-neutral-400">JUEcell · 2025</p>
+
+                <p class="mt-6 text-base leading-7 text-neutral-300">
+                  My first hackathon. I walked in without knowing Git properly,
+                  and ended up learning it on the go while working with the team
+                  and building under pressure.
+                </p>
+
+                <p class="mt-5 text-base leading-7 text-neutral-300">
+                  It taught me that not knowing something isn't a reason to stop
+                  it's a reason to learn.
+                </p>
+              </div>
+
+              <!-- This Is Me -->
+              <div
+                class="rounded-xl border border-white/10 bg-white/[0.02] p-6 md:p-8"
+              >
+                <p
+                  class="mb-5 text-xs font-medium uppercase tracking-[0.2em] text-neutral-500"
+                >
+                  This Is Me
+                </p>
+
+                <h3 class="text-2xl font-bold tracking-[-0.02em] text-white">
+                  I learn it on the go.
+                </h3>
+
+                <p class="mt-6 text-base leading-7 text-neutral-300">
+                  I don't know everything, and I'm not trying to pretend I do.
+                  If there's something I don't know, I learn it.
+                </p>
+
+                <p class="mt-5 text-base leading-7 text-neutral-300">
+                  I'm curious, I like figuring things out, and I learn best by
+                  getting my hands dirty and building.
+                </p>
+
+                <p class="mt-5 text-base leading-7 text-neutral-300">
+                  Whether it's a new technology, a tool I've never used, or
+                  something that breaks five times before working, I'll figure
+                  it out.
+                </p>
+              </div>
+            </div>
+
+            <!-- Hackathon Photos -->
+            <div class="mt-8">
+              <div class="grid grid-cols-2 gap-3 md:grid-cols-4">
+                <div class="overflow-hidden rounded-xl border border-white/10">
+                  <img
+                    src="./assets/hackathon/hackathon-01.jpg"
+                    alt="HackN'Pitch 2025"
+                    loading="lazy"
+                    class="h-48 w-full object-cover transition duration-500 hover:scale-105 md:h-56"
+                  />
+                </div>
+
+                <div class="overflow-hidden rounded-xl border border-white/10">
+                  <img
+                    src="./assets/hackathon/hackathon-02.jpg"
+                    alt="HackN'Pitch 2025"
+                    loading="lazy"
+                    class="h-48 w-full object-cover transition duration-500 hover:scale-105 md:h-56"
+                  />
+                </div>
+
+                <div class="overflow-hidden rounded-xl border border-white/10">
+                  <img
+                    src="./assets/hackathon/hackathon-03.jpg"
+                    alt="HackN'Pitch 2025"
+                    loading="lazy"
+                    class="h-48 w-full object-cover transition duration-500 hover:scale-105 md:h-56"
+                  />
+                </div>
+
+                <div class="overflow-hidden rounded-xl border border-white/10">
+                  <img
+                    src="./assets/hackathon/hackathon-04.jpg"
+                    alt="HackN'Pitch 2025"
+                    loading="lazy"
+                    class="h-fit w-fit object-cover transition duration-500 hover:scale-105 md:h-56"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT / FOOTER -->
+      <footer id="contact" class="px-6 pb-8 pt-24 md:pt-32">
+        <div class="mx-auto max-w-6xl">
+          <!-- Main Contact Card -->
+          <div
+            class="rounded-2xl border border-white/10 bg-[#080808]/90 p-6 md:p-10 lg:p-12"
+          >
+            <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
+              <!-- LEFT -->
+              <div>
+                <p
+                  class="mb-6 text-xs font-medium uppercase tracking-[0.3em] text-neutral-400"
+                >
+                  Get in touch
+                </p>
+
+                <h2
+                  class="max-w-md text-4xl font-bold leading-[1.05] tracking-[-0.04em] text-white sm:text-5xl"
+                >
+                  It's time
+                  <br />
+                  to talk!
+                </h2>
+
+                <a
+                  href="mailto:imrahitpal@gmail.com"
+                  class="mt-8 inline-block text-base font-medium text-white transition hover:text-neutral-400"
+                >
+                  imrahitpal@gmail.com
+                </a>
+
+                <!-- Social Links -->
+                <div class="mt-8 flex flex-wrap gap-3">
+                  <a
+                    href="https://instagram.com/r4hit_fr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition duration-300 hover:border-white/20 hover:bg-white/[0.08]"
+                  >
+                    Instagram ↗
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/rahit-pal-53123438a/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition duration-300 hover:border-white/20 hover:bg-white/[0.08]"
+                  >
+                    LinkedIn ↗
+                  </a>
+
+                  <a
+                    href="https://github.com/rahithere"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition duration-300 hover:border-white/20 hover:bg-white/[0.08]"
+                  >
+                    GitHub ↗
+                  </a>
+
+                  <a
+                    href="https://x.com/imrahit"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition duration-300 hover:border-white/20 hover:bg-white/[0.08]"
+                  >
+                    X ↗
+                  </a>
+
+                  <a
+                    href="https://wa.me/9163999798"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="rounded-lg border border-white/10 bg-white/[0.04] px-4 py-2.5 text-sm font-medium text-white transition duration-300 hover:border-white/20 hover:bg-white/[0.08]"
+                  >
+                    WhatsApp ↗
+                  </a>
+                </div>
+              </div>
+
+              <!-- RIGHT -->
+              <div class="flex flex-col justify-between">
+                <div>
+                  <p
+                    class="max-w-xl text-lg leading-8 text-neutral-200 md:text-xl"
+                  >
+                    Best way to reach out is
+                    <a
+                      href="mailto:imrahitpal@gmail.com"
+                      class="font-semibold text-white underline decoration-white/20 underline-offset-4 transition hover:decoration-white"
+                    >
+                      imrahitpal@gmail.com
+                    </a>
+                    or just simply drop me a message.
+                  </p>
+
+                  <p
+                    class="mt-2 max-w-xl text-lg leading-8 text-neutral-200 md:text-xl"
+                  >
+                    Don't be shy, I love to talk to new people and make new
+                    connections.
+                  </p>
+                </div>
+
+                <!-- Direct Contact -->
+                <div class="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <a
+                    href="mailto:imrahitpal@gmail.com"
+                    class="rounded-xl border border-white/10 bg-white/[0.03] p-5 transition duration-300 hover:border-white/20 hover:bg-white/[0.06]"
+                  >
+                    <p
+                      class="text-xs uppercase tracking-[0.2em] text-neutral-500"
+                    >
+                      Email
+                    </p>
+
+                    <p class="mt-3 text-sm font-medium text-white">
+                      imrahitpal@gmail.com
+                    </p>
+                  </a>
+
+                  <a
+                    href="tel:+9163999798"
+                    class="rounded-xl border border-white/10 bg-white/[0.03] p-5 transition duration-300 hover:border-white/20 hover:bg-white/[0.06]"
+                  >
+                    <p
+                      class="text-xs uppercase tracking-[0.2em] text-neutral-500"
+                    >
+                      Call
+                    </p>
+
+                    <p class="mt-3 text-sm font-medium text-white">
+                      +91 63999798
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="my-10 h-px bg-white/10"></div>
+
+            <!-- Bottom -->
+            <div
+              class="flex flex-col items-center justify-center gap-2 text-center"
+            >
+              <p class="text-sm text-neutral-400">
+                Designed & developed by
+                <span class="font-semibold text-white"> Rahit Pal </span>
+              </p>
+
+              <p class="text-xs text-neutral-600">
+                © 2026 Rahit Pal. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

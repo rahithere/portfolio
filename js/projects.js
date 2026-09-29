@@ -43,6 +43,10 @@ const projects = [
                 name: "JavaScript",
                 icon: "devicon-javascript-plain colored",
             },
+            {
+                name: "Tailwind",
+                icon: "devicon-tailwindcss-original colored",
+            },
         ],
 
         live: "https://interior-designer-sample-website.imrahitpal.workers.dev/",
@@ -61,6 +65,10 @@ const projects = [
             {
                 name: "Framer",
                 icon: "devicon-framer-original",
+            },
+            {
+                name: "Figma",
+                icon: "devicon-figma-plain",
             },
         ],
 
@@ -82,8 +90,42 @@ const projects = [
                 icon: "devicon-react-original colored",
             },
             {
+                name: "JavaScript",
+                icon: "devicon-javascript-plain colored",
+            },
+            {
                 name: "React Router",
                 icon: "devicon-reactrouter-plain",
+            },
+            {
+                name: "Tailwind",
+                icon: "devicon-tailwindcss-original colored",
+            },
+        ],
+
+        live: null,
+        github: null,
+    },
+    {
+        number: "05",
+        title: "Real Estate Lead Qualifier",
+        description:
+            "An automated lead qualification workflow where incoming real estate leads are processed by an AI agent, evaluated based on defined criteria, and the results are automatically recorded and organized in Google Sheets.",
+
+        image: "./assets/projects/real-estate-lead-qualifier/01.webp",
+
+        technologies: [
+            {
+                name: "n8n",
+                icon: "devicon-n8n-plain",
+            },
+            {
+                name: "Google Sheets",
+                icon: "devicon-google-plain colored",
+            },
+            {
+                name: "AI Agent",
+                icon: "devicon-openai-plain",
             },
         ],
 
@@ -127,7 +169,6 @@ projects.forEach((project) => {
         class="inline-flex items-center gap-2 rounded-lg bg-white px-4 py-2 text-sm font-semibold text-black transition duration-300 hover:bg-neutral-200"
       >
         View Live
-        <span>↗</span>
       </a>
     `
         : "";
