@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rahit Pal</title>
+    <link rel="stylesheet" href="./css/output.css" />
+
+    <!-- devicon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body class="bg-black text-white bg-dots">
+    <main>
+      <!-- HERO -->
+      <section
+        id="hero"
+        class="relative flex min-h-screen items-center justify-center overflow-hidden"
+      >
+        <!-- Subtle center glow -->
+        <div
+          class="hero-glow pointer-events-none absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full"
+        ></div>
+
+        <!-- Hero Content -->
+        <div
+          class="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center px-6 text-center"
+        >
+          <!-- Small Label -->
+          <p
+            id="hero-label"
+            class="mb-6 text-sm font-medium uppercase tracking-[0.3em] text-white"
+          >
+            Rahit Pal
+          </p>
+
+          <!-- Main Heading -->
+          <h1
+            id="hero-title"
+            class="max-w-4xl text-5xl font-bold leading-[1.05] tracking-[-0.04em] sm:text-6xl md:text-7xl lg:text-8xl"
+          >
+            Building. Learning.
+            <br />
+            <span class="text-neutral-300">Improving.</span>
+          </h1>
+
+          <!-- Description -->
+          <p
+            id="hero-description"
+            class="mt-8 max-w-xl text-base leading-7 text-neutral-400 md:text-lg"
+          >
+            Learning by building, experimenting with new technologies, and
+            continuously improving through every project.
+          </p>
+
+          <!-- CTA -->
+          <div
+            id="hero-cta"
+            class="mt-10 flex flex-col items-center gap-4 sm:flex-row"
+          >
+            <!-- Resume -->
+            <a
+              href="./assets/Rahit-Pal-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group inline-flex h-12 items-center justify-center rounded-lg bg-white px-7 text-sm font-semibold text-black transition-all duration-300 hover:bg-neutral-200"
+            >
+              View Resume
+            </a>
+
+            <!-- Get in touch -->
+            <a
+              href="#contact"
+              class="inline-flex h-12 items-center justify-center rounded-lg border border-white/15 bg-white/[0.03] px-7 text-sm font-semibold text-white transition-all duration-300 hover:border-white/30 hover:bg-white/[0.08]"
+            >
+              Get in touch
+            </a>
+          </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div
+          id="scroll-indicator"
+          class="absolute bottom-8 left-1/2 -translate-x-1/2"
+        >
+          <a
+            href="#about"
+            aria-label="Scroll to about section"
+            class="flex h-10 w-6 items-start justify-center rounded-full border border-white/15 pt-2"
+          >
+            <span class="h-1.5 w-1.5 rounded-full bg-white/70"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT  -->
+      <section id="about" class="py-24 md:py-32">
+        <div class="mx-auto max-w-6xl px-6">
+          <div
+            class="grid grid-cols-1 gap-12 rounded-2xl border border-white/10 bg-[#080808]/90 p-8 md:grid-cols-[1.6fr_0.8fr] md:gap-16 md:p-12 lg:p-16"
+          >
+            <!-- ABOUT -->
+            <div>
+              <p
+                class="mb-8 text-xs font-medium uppercase tracking-[0.3em] text-neutral-400"
+              >
+                About Me
+              </p>
+
+              <h2
+                class="max-w-3xl text-4xl font-bold leading-[1.1] tracking-[-0.03em] text-white sm:text-5xl"
+              >
+                Learning by building, one project at a time.
+              </h2>
+
+              <div
+                class="mt-10 max-w-2xl space-y-6 text-base leading-7 text-neutral-300 md:text-lg"
+              >
+                <p>
+                  I’m a sophomore at Jadavpur University, passionate about
+                  learning new technologies and exploring how things work. I
+                  enjoy building projects, experimenting with different tools,
+                  and looking for opportunities to contribute to real-world
+                  projects while growing as a developer.
+                </p>
+
+                <p>
+                  Most of my time goes into exploring new technologies, building
+                  projects, and learning through hands-on experience..
+                </p>
+
+                <p>
+                  I'm still early in my journey, but every project gives me
+                  something new to learn, improve, and build better the next
+                  time.
+                </p>
+              </div>
+
+              <p class="mt-10 text-lg font-semibold text-white">
+                Always learning. Always building.
+              </p>
+            </div>
+
+            <!-- GET IN TOUCH -->
+            <div>
+              <p
+                class="mb-8 text-xs font-medium uppercase tracking-[0.3em] text-neutral-400"
+              >
+                Get in Touch
+              </p>
+
+              <div class="space-y-3">
+                <a
+                  href="mailto:imrahitpal@gmail.com"
+                  class="group flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 transition duration-300 hover:border-white/25 hover:bg-white/[0.06]"
+                >
+                  <div>
+                    <p class="text-sm font-semibold text-white">Email</p>
+                    <p class="mt-1 text-sm text-neutral-300">
+                      imrahitpal@gmail.com
+                    </p>
+                  </div>
+
+                  <span
+                    class="text-neutral-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-white"
+                  >
+                    ↗
+                  </span>
+                </a>
+
+                <a
+                  href="https://github.com/rahithere/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 transition duration-300 hover:border-white/25 hover:bg-white/[0.06]"
+                >
+                  <div>
+                    <p class="text-sm font-semibold text-white">GitHub</p>
+                    <p class="mt-1 text-sm text-neutral-300">@rahithere</p>
+                  </div>
+
+                  <span
+                    class="text-neutral-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-white"
+                  >
+                    ↗
+                  </span>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/rahit-pal-53123438a/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="group flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-5 py-4 transition duration-300 hover:border-white/25 hover:bg-white/[0.06]"
+                >
+                  <div>
+                    <p class="text-sm font-semibold text-white">LinkedIn</p>
+                    <p class="mt-1 text-sm text-neutral-300">Rahit Pal</p>
+                  </div>
+
+                  <span
+                    class="text-neutral-400 transition-transform duration-300 group-hover:translate-x-1 group-hover:text-white"
+                  >
+                    ↗
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TECH STACK  -->
+      <section id="tech-stack" class="py-24 md:py-32">
+        <div class="mx-auto max-w-6xl px-6">
+          <!-- Section Label -->
+          <p
+            class="mb-8 text-xs font-medium uppercase tracking-[0.3em] text-white"
+          >
+            Tech Stack
+          </p>
+
+          <!-- Outer Card -->
+          <div
+            class="rounded-2xl border border-white/10 bg-[#080808]/90 p-6 md:p-8"
+          >
+            <!-- Frontend -->
+            <div>
+              <p class="mb-5 text-sm font-semibold text-white">Frontend</p>
+
+              <div
+                class="flex flex-wrap gap-3 rounded-xl border border-white/10 bg-white/[0.02] p-4"
+              >
+                <div class="tech-item">
+                  <i class="devicon-html5-plain colored"></i>
+                  <span>HTML</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-css3-plain colored"></i>
+                  <span>CSS</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-javascript-plain colored"></i>
+                  <span>JavaScript</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-tailwindcss-original colored"></i>
+                  <span>Tailwind</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-react-original colored"></i>
+                  <span>React</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-redux-original colored"></i>
+                  <span>Redux</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="mt-8">
+              <p class="mb-5 text-sm font-semibold text-white">Backend</p>
+
+              <div
+                class="flex flex-wrap gap-3 rounded-xl border border-white/10 bg-white/[0.02] p-4"
+              >
+                <div class="tech-item">
+                  <i class="devicon-nodejs-plain colored"></i>
+                  <span>Node.js</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-express-original"></i>
+                  <span>Express</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-mongodb-plain colored"></i>
+                  <span>MongoDB</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-mongoose-original colored"></i>
+                  <span>Mongoose</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-supabase-plain colored"></i>
+                  <span>Supabase</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-appwrite-plain colored"></i>
+                  <span>Appwrite</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="mt-8">
+              <p class="mb-5 text-sm font-semibold text-white">Tools</p>
+
+              <div
+                class="flex flex-wrap gap-3 rounded-xl border border-white/10 bg-white/[0.02] p-4"
+              >
+                <div class="tech-item">
+                  <i class="devicon-git-plain colored"></i>
+                  <span>Git</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-github-original"></i>
+                  <span>GitHub</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-vscode-plain colored"></i>
+                  <span>VS Code</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-figma-plain colored"></i>
+                  <span>Figma</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-framer-original"></i>
+                  <span>Framer</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-linux-plain"></i>
+                  <span>Linux CLI</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-cloudflare-plain colored"></i>
+                  <span>Cloudflare Pages</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-npm-original-wordmark colored"></i>
+                  <span>npm</span>
+                </div>
+
+                <div class="tech-item">
+                  <i class="devicon-bash-plain"></i>
+                  <span>Git Bash</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="py-24 md:py-32">
+        <div class="mx-auto max-w-6xl px-6">
+          <!-- Section Heading -->
+          <div class="mb-10">
+            <p
+              class="mb-6 text-xs font-medium uppercase tracking-[0.3em] text-neutral-400"
+            >
+              Projects
+            </p>
+
+            <h2
+              class="max-w-2xl text-4xl font-bold leading-[1.1] tracking-[-0.03em] text-white sm:text-5xl"
+            >
+              Things I've built.
+            </h2>
+          </div>
+
+          <!-- Projects Outer Card -->
+          <div
+            class="rounded-2xl border border-white/10 bg-[#080808]/90 p-4 sm:p-6 md:p-8"
+          >
+            <!-- Projects Container -->
+            <div id="projects-container" class="space-y-8">
+              <!-- Projects generated by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
