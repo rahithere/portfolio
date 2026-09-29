@@ -5,7 +5,7 @@ const projects = [
         description:
             "A design-focused café website built to create a strong visual brand presence, with an emphasis on typography, composition, layout, and smooth interactions.",
 
-        image: "./assets/projects/coffee-corner/01.webp",
+        image: "./assets/projects/coffee-Corner/01.png",
 
         technologies: [
             {
@@ -28,7 +28,7 @@ const projects = [
         description:
             "A sample portfolio website for an interior design studio, designed to showcase spaces and design work through a responsive and visually focused layout.",
 
-        image: "./assets/projects/interior/01.webp",
+        image: "./assets/projects/interior/01.png",
 
         technologies: [
             {
@@ -59,7 +59,7 @@ const projects = [
         description:
             "A modern salon website designed to showcase services and brand identity through interactive animations, smooth transitions, and a responsive layout.",
 
-        image: "./assets/projects/salon/01.webp",
+        image: "./assets/projects/salon/01.png",
 
         technologies: [
             {
@@ -82,7 +82,7 @@ const projects = [
         description:
             "A responsive product catalogue built for browsing products across categories, with dynamic product interactions and seamless navigation between listings and individual product pages.",
 
-        image: "./assets/projects/ecommerce/01.webp",
+        image: "./assets/projects/ecommerce/01.png",
 
         technologies: [
             {
@@ -112,7 +112,7 @@ const projects = [
         description:
             "An automated lead qualification workflow where incoming real estate leads are processed by an AI agent, evaluated based on defined criteria, and the results are automatically recorded and organized in Google Sheets.",
 
-        image: "./assets/projects/real-estate-lead-qualifier/01.webp",
+        image: "./assets/projects/real-estate-lead-qualifier/01.png",
 
         technologies: [
             {

@@ -17,11 +17,75 @@
 
     <script src="./js/script.js" defer></script>
     <script src="./js/projects.js" defer></script>
+
+    <!-- animation  -->
+    <script src="./js/animations/aboutAnimation.js" defer></script>
+    <script src="./js/animations/projectAnimation.js" defer></script>
+    <script src="./js/animations/storyAnimation.js" defer></script>
   </head>
   <body class="bg-black text-white bg-dots">
     <!-- Custom Cursor -->
     <div id="cursor-dot"></div>
     <div id="cursor-ring"></div>
+    <!-- HEADER -->
+    <header
+      class="fixed left-1/2 top-4 z-50 w-[calc(100%-32px)] max-w-3xl -translate-x-1/2"
+    >
+      <nav
+        class="flex items-center justify-between rounded-xl border border-white/10 bg-black/70 px-4 py-3 backdrop-blur-xl md:px-5"
+      >
+        <!-- Logo -->
+        <a href="#hero" class="text-sm font-bold tracking-tight text-white">
+          RP.
+        </a>
+
+        <!-- Navigation -->
+        <div class="hidden items-center gap-1 sm:flex">
+          <a
+            href="#about"
+            class="rounded-lg px-3 py-2 text-sm text-neutral-400 transition duration-300 hover:bg-white/[0.06] hover:text-white"
+          >
+            About
+          </a>
+
+          <a
+            href="#tech-stack"
+            class="rounded-lg px-3 py-2 text-sm text-neutral-400 transition duration-300 hover:bg-white/[0.06] hover:text-white"
+          >
+            Stack
+          </a>
+
+          <a
+            href="#projects"
+            class="rounded-lg px-3 py-2 text-sm text-neutral-400 transition duration-300 hover:bg-white/[0.06] hover:text-white"
+          >
+            Projects
+          </a>
+
+          <a
+            href="#story"
+            class="rounded-lg px-3 py-2 text-sm text-neutral-400 transition duration-300 hover:bg-white/[0.06] hover:text-white"
+          >
+            Beyond
+          </a>
+
+          <a
+            href="#contact"
+            class="ml-1 rounded-lg bg-white px-4 py-2 text-sm font-semibold text-black transition duration-300 hover:bg-neutral-200"
+          >
+            Contact
+          </a>
+        </div>
+
+        <!-- Mobile Contact -->
+        <a
+          href="#contact"
+          class="rounded-lg bg-white px-4 py-2 text-sm font-semibold text-black sm:hidden"
+        >
+          Contact
+        </a>
+      </nav>
+    </header>
     <main>
       <!-- HERO -->
       <section
@@ -35,7 +99,7 @@
 
         <!-- Hero Content -->
         <div
-          class="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center px-6 text-center"
+          class="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center px-6 text-center pt-20"
         >
           <!-- Small Label -->
           <p
@@ -87,20 +151,6 @@
               Get in touch
             </a>
           </div>
-        </div>
-
-        <!-- Scroll Indicator -->
-        <div
-          id="scroll-indicator"
-          class="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <a
-            href="#about"
-            aria-label="Scroll to about section"
-            class="flex h-10 w-6 items-start justify-center rounded-full border border-white/15 pt-2"
-          >
-            <span class="h-1.5 w-1.5 rounded-full bg-white/70"></span>
-          </a>
         </div>
       </section>
 
